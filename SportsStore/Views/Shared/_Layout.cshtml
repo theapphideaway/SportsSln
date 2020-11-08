@@ -1,12 +1,23 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <meta name="viewport" content="width=device-width"/>
+    <meta name="viewport" content="width=device-width" />
     <title>SportsStore</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <div>
-        @RenderBody()
+    <div class="bg-dark text-white p-2">
+        <span class="navbar-brand ml-2">SPORTS STORE</span>
+    </div>
+    <div class="row m-1 p-1">
+        <div id="categories" class="col-3">
+            Put something useful here later
+        </div>
+        <div class="col-9">
+            @RenderBody()
+        </div>
     </div>
 </body>
 </html>
