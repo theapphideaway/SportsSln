@@ -53,6 +53,13 @@ namespace SportsStore.Models
                     },
                     new Product
                     {
+                        Name = "Right Handed Hockey Stick",
+                        Description = "Hockey stick for forwards or defensemen",
+                        Category = "Hockey",
+                        Price = 50
+                    },
+                    new Product
+                    {
                         Name = "Left Handed Hockey Stick",
                         Description = "Hockey stick for forwards or defensemen",
                         Category = "Hockey",
